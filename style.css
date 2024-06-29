@@ -1,0 +1,451 @@
+*,
+.html {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #1e1e1e1e;
+}
+
+.header{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.header nav {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    background-color: #2d2d30;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.navigation-header {
+    width: 500px;
+    height: 10vh;
+    display: flex;
+    margin: 30px 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+        transition-behavior: normal, normal;
+        transition-duration: 0.3s, 0.3s;
+        transition-timing-function: ease, ease;
+        transition-delay: 0s, 0s;
+        transition-property: background-color, color;
+}
+
+.ul a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.form-inline {
+    display: flex;
+    border-radius: 5%;
+}
+
+#jumbotron {
+    position: relative;
+    background-image: url(cybershop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+
+#jumbotron-text-h1 {
+    font-size: 36px;
+}
+
+#jumbotron-text h1, #jumbotron-text h3 {
+    pointer-events: none;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: -1.5px -1.5px 10px #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+
+}
+
+h1 {
+    display: block;
+    font-family: 'Poppins',sans-serif;font-size: 22px;
+    font-size: 5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+#jumbotron-text a {
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: .3;
+}
+
+center {
+    text-align: -webkit-center;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+
+.main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+.center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+#paket h1 {
+    font-size: 25px;
+    margin-top: 0;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.kotakganal {
+    width: 76%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.kotak .gambar {
+    position: relative;
+    overflow: hidden;
+}
+
+.kotakganal h2 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-weight: bolder;
+    color: white;
+}
+
+.h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.kotak .gambar img {
+    filter: blur(0);
+    transition: filter 0.3s;
+}
+
+.img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#about-us {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: #3e3e42;
+}
+
+
+.div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.about-us-img {
+    flex-basis: 50%;
+    background-image: url(cyber-monday-shopping-sales.jpg);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+.about-us-desc {
+    flex-basis: 60%;
+    padding: 45px;
+}
+
+.about-us-desc h1 {
+    color: white;
+    font-size: 25px;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.about-us-desc p {
+    margin: 30px 0px 10px;
+    line-height: 2;
+    text-align: justify;
+    color: wheat;
+}
+
+.footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    background-color: #2d2d30;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-left, .footer-right {
+    flex-basis: 25%;
+}
+
+.div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.footer-logo {
+    margin-bottom: 5px;
+}
+
+.footer-navigation li {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    background-color: #2d2d30;
+    justify-content: space-evenly;
+}
+
+.footer-navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.li {
+    text-align: -webkit-match-parent;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#footer {
+    background-color: #2d2d30;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+        transition-behavior: normal, normal;
+        transition-duration: 0.3s, 0.3s;
+        transition-timing-function: ease, ease;
+        transition-delay: 0s, 0s;
+        transition-property: background-color, color;
+}
+
+
+ul {
+    width: 500px;
+    display: flex;
+    margin: 30 px 150 px;
+    justify-content: space-evenly;
+    color: white;
+    list-style-type: none;
+}
+
+.ul a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
